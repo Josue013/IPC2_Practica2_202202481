@@ -1,0 +1,80 @@
+body {
+  font-family: Helvetica, Sans-Serif;
+  background-color: LightCoral;
+}
+
+header {
+  background-color: rgb(112, 4, 0);
+  color: LightSalmon;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+}
+
+section {
+  background-color: LightSalmon;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+ul {
+
+  padding-left: 30px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+table {
+  border-color: black;
+  background-color: Salmon;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: solid 1px black;
+  padding: 10px;
+}
+
+thead {
+  background-color: #8B0000;
+  border-bottom: solid 5px black;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: IndianRed;
+}
+
+::marker{
+  Color: red;
+  font-size: 2.5em;
+}
+
+#main-container{
+margin: 30px;
+width: 400px;
+
+}
